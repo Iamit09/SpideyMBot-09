@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/AmozonflixMovies')
             ],
             [
                 InlineKeyboardButton('ℹ️ нelp', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('ѕeαrcн нere 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('υpdαтeѕ⚡', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('υpdαтeѕ⚡', url='https://t.me/AmozonflixMovies')
         ], [
             InlineKeyboardButton('нelp', callback_data='help'),
             InlineKeyboardButton('αвoυт', callback_data='about')
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('ѕeαrcн нere 🔎', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('υpdαтeѕ⚡', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('υpdαтeѕ⚡', url='https://t.me/AmozonflixMovies')
         ], [
             InlineKeyboardButton('нelp', callback_data='help'),
             InlineKeyboardButton('αвoυт', callback_data='about')
